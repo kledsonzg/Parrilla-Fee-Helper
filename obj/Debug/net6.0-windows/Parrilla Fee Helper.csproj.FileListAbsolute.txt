@@ -1,0 +1,19 @@
+X:\Projeto Fee Helper\Parrilla Fee Helper\bin\Debug\net6.0-windows\Parrilla Fee Helper.exe
+X:\Projeto Fee Helper\Parrilla Fee Helper\bin\Debug\net6.0-windows\Parrilla Fee Helper.deps.json
+X:\Projeto Fee Helper\Parrilla Fee Helper\bin\Debug\net6.0-windows\Parrilla Fee Helper.runtimeconfig.json
+X:\Projeto Fee Helper\Parrilla Fee Helper\bin\Debug\net6.0-windows\Parrilla Fee Helper.dll
+X:\Projeto Fee Helper\Parrilla Fee Helper\bin\Debug\net6.0-windows\Parrilla Fee Helper.pdb
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.csproj.AssemblyReference.cache
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.Form1.resources
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.csproj.GenerateResource.cache
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.GeneratedMSBuildEditorConfig.editorconfig
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.AssemblyInfoInputs.cache
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.AssemblyInfo.cs
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.csproj.CoreCompileInputs.cache
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.dll
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\refint\Parrilla Fee Helper.dll
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.pdb
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee Helper.genruntimeconfig.cache
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\ref\Parrilla Fee Helper.dll
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.Properties.Resources.resources
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.AutoCalculator.resources
