@@ -18,6 +18,7 @@ namespace Parrilla_Fee_Helper
         string totalBackup;
         string cardBackup;
         string moneyBackup;
+        bool[] blockBox = new bool[2];
         Form1 Reference;
         List<TextBox> textBoxes = new List<TextBox>();
 
@@ -28,6 +29,7 @@ namespace Parrilla_Fee_Helper
             textBoxes.Add(FeeBox);
             textBoxes.Add(AdditionBox);
             textBoxes.Add(DiscountBox);
+            CheckLockers();
         }
 
         void ValidateAsNumber(TextBox text, string strBackup)
@@ -70,13 +72,13 @@ namespace Parrilla_Fee_Helper
             //bool IsOk;
 
             if(MainChanged){
-                if(text == feeBox){
+                if(text == feeBox && !blockBox[1]){
                     Double.TryParse(text.Text, out fee);
 
                     total = fee * 10;
                     totalBox.Text = $"{total}";
                 }
-                else if(text == totalBox){
+                else if(text == totalBox && !blockBox[0]){
                     Double.TryParse(text.Text, out total);
 
                     fee = total / 10;
@@ -102,6 +104,29 @@ namespace Parrilla_Fee_Helper
             }
             textBox3.Text = $"{discount}";
             textBox4.Text = $"{addition}";
+        }
+        void CheckLockers()
+        {
+            switch(blockBox[0]){
+                case true:{
+                    pictureBox3.Image = Properties.Resources._lock;
+                    break;
+                }
+                case false:{
+                    pictureBox3.Image = Properties.Resources.unlock;
+                    break;
+                }
+            }
+            switch(blockBox[1]){
+                case true:{
+                    pictureBox4.Image = Properties.Resources._lock;
+                    break;
+                }
+                case false:{
+                    pictureBox4.Image = Properties.Resources.unlock;
+                    break;
+                }
+            }
         }    
         private void feeBox_TextChanged(object sender, EventArgs e)
         {
@@ -137,6 +162,18 @@ namespace Parrilla_Fee_Helper
             textBoxes[1].Text = textBox4.Text;
             textBoxes[2].Text = textBox3.Text;
             this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            blockBox[1] = !blockBox[1];
+            CheckLockers();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            blockBox[0] = !blockBox[0];
+            CheckLockers();
         }
     }
 }
