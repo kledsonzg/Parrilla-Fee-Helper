@@ -169,4 +169,10 @@
   <data name="unlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Flat_minus_icon___red_svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flat_minus_icon_-_red.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_icon_13085" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-icon-13085.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

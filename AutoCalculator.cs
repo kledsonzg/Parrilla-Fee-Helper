@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Parrilla_Fee_Helper
 {
@@ -72,17 +73,23 @@ namespace Parrilla_Fee_Helper
             //bool IsOk;
 
             if(MainChanged){
-                if(text == feeBox && !blockBox[1]){
+                if(text == feeBox){
                     Double.TryParse(text.Text, out fee);
-
-                    total = fee * 10;
-                    totalBox.Text = $"{total}";
+                  
+                    if(!blockBox[1]){
+                        total = fee * 10;
+                        totalBox.Text = $"{total}";
+                    }
+                    else Double.TryParse(totalBox.Text, out total);
                 }
-                else if(text == totalBox && !blockBox[0]){
+                else if(text == totalBox){
                     Double.TryParse(text.Text, out total);
-
-                    fee = total / 10;
-                    feeBox.Text = $"{fee}";
+               
+                    if(!blockBox[0]){
+                        fee = total / 10;
+                        feeBox.Text = $"{fee}";
+                    }
+                    else Double.TryParse(feeBox.Text, out fee);
                 }
             }
             else{
@@ -130,6 +137,7 @@ namespace Parrilla_Fee_Helper
         }    
         private void feeBox_TextChanged(object sender, EventArgs e)
         {
+            if(!feeBox.Focused) return;
             ValidateAsNumber(feeBox, feeBackup);
             if(feeBox.Text != feeBackup) Calculate(true, feeBox);
             feeBackup = feeBox.Text;
@@ -137,6 +145,7 @@ namespace Parrilla_Fee_Helper
 
         private void totalBox_TextChanged(object sender, EventArgs e)
         {
+            if(!totalBox.Focused) return;
             ValidateAsNumber(totalBox, totalBackup);
             if(totalBox.Text != totalBackup) Calculate(true, totalBox);
             totalBackup = totalBox.Text;
@@ -144,6 +153,7 @@ namespace Parrilla_Fee_Helper
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if(!textBox1.Focused) return;
             ValidateAsNumber(textBox1, cardBackup);
             cardBackup = textBox1.Text;
             Calculate(false, null);
@@ -151,6 +161,7 @@ namespace Parrilla_Fee_Helper
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            if(!textBox2.Focused) return;
             ValidateAsNumber(textBox2, moneyBackup);
             moneyBackup = textBox2.Text;
             Calculate(false, null);

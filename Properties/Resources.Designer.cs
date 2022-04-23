@@ -143,6 +143,16 @@ namespace Parrilla_Fee_Helper.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Flat_minus_icon___red_svg {
+            get {
+                object obj = ResourceManager.GetObject("Flat_minus_icon___red_svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap head_icon_6524 {
             get {
                 object obj = ResourceManager.GetObject("head-icon-6524", resourceCulture);
@@ -186,6 +196,16 @@ namespace Parrilla_Fee_Helper.Properties {
         internal static System.Drawing.Bitmap open_menu {
             get {
                 object obj = ResourceManager.GetObject("open_menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plus_icon_13085 {
+            get {
+                object obj = ResourceManager.GetObject("plus_icon_13085", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

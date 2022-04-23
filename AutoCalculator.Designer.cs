@@ -178,6 +178,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Parrilla_Fee_Helper.Properties.Resources._lock;
             this.pictureBox3.Location = new System.Drawing.Point(188, 12);
             this.pictureBox3.Name = "pictureBox3";
@@ -190,6 +191,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Parrilla_Fee_Helper.Properties.Resources._lock;
             this.pictureBox4.Location = new System.Drawing.Point(569, 12);
             this.pictureBox4.Name = "pictureBox4";

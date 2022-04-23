@@ -17,3 +17,4 @@ X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla Fee 
 X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\ref\Parrilla Fee Helper.dll
 X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.Properties.Resources.resources
 X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.AutoCalculator.resources
+X:\Projeto Fee Helper\Parrilla Fee Helper\obj\Debug\net6.0-windows\Parrilla_Fee_Helper.ComissionManager.resources

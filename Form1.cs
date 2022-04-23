@@ -24,8 +24,6 @@ namespace Parrilla_Fee_Helper
         int oldFormWidth;
         int EditMode = -1;
         public bool IsDay = false;
-
-        /////////////////////////////////////////////////////////////
         const int LABEL_QUANTY = 1;
         const int valueLabel = 0;
 
@@ -301,6 +299,11 @@ namespace Parrilla_Fee_Helper
             AutoCalculator calculator = new AutoCalculator(this, textBox3, textBox4, textBox5);
             calculator.ShowDialog();
         }
+        void OnUserSelectOpenManagerButton()
+        {
+            ComissionManager comissionManager = new ComissionManager();
+            comissionManager.Show();
+        }
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             OnUserSaveFee();
@@ -335,6 +338,11 @@ namespace Parrilla_Fee_Helper
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             OnUserClickOnAutoButton();
+        }
+
+        private void buttonAbrirGestor_Click(object sender, EventArgs e)
+        {
+            OnUserSelectOpenManagerButton();
         }
     }   
 }
